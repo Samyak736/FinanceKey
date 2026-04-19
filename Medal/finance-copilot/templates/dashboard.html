@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Finance Copilot · Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <script>
+      window.__API_ROOT__ = {{ (request.script_root or "") | tojson }};
+    </script>
+  </head>
+  <body>
+    <div class="shell">
+      <div class="topbar">
+        <div class="brand">
+          <strong>Financial Copilot</strong>
+          <span>Understands spending, surfaces hidden patterns, guides better decisions</span>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center">
+          <a class="pill" href="{{ url_for('index') }}">Upload new CSV</a>
+          <a class="pill" href="{{ url_for('auth.logout') }}">Logout</a>
+        </div>
+      </div>
+
+      <div class="grid metrics">
+        <div class="panel">
+          <h2>Total income</h2>
+          <div id="m-income" class="metric-value">₹0</div>
+          <div class="metric-sub">All credits in file</div>
+        </div>
+        <div class="panel">
+          <h2>Total expenses</h2>
+          <div id="m-expense" class="metric-value">₹0</div>
+          <div class="metric-sub">Absolute spend</div>
+        </div>
+        <div class="panel">
+          <h2>Net cash flow</h2>
+          <div id="m-net" class="metric-value">₹0</div>
+          <div class="metric-sub">Income − expenses</div>
+        </div>
+        <div class="panel">
+          <h2>Savings rate</h2>
+          <div id="m-rate" class="metric-value">0%</div>
+          <div class="metric-sub">Net ÷ income</div>
+        </div>
+      </div>
+
+      <div class="grid intelligence">
+        <div class="panel health-hero">
+          <h2>Financial health score</h2>
+          <div id="health-score" class="score">—</div>
+          <div id="health-copy" class="sub">Upload data to compute your score.</div>
+        </div>
+        <div class="panel">
+          <h2>Subscription detector</h2>
+          <ul id="sub-list" class="compact-list">
+            <li class="hint">No recurring charges detected yet.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h2>Anomaly radar</h2>
+          <ul id="anomaly-list" class="compact-list">
+            <li class="hint">No 2× category spikes detected.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid charts" style="margin-top: 18px">
+        <div class="panel">
+          <h2>Monthly spending totals</h2>
+          <canvas id="chart-monthly" height="260"></canvas>
+        </div>
+        <div class="panel">
+          <h2>Category mix</h2>
+          <canvas id="chart-category" height="260"></canvas>
+        </div>
+        <div class="panel">
+          <h2>Income vs expense</h2>
+          <canvas id="chart-cashflow" height="260"></canvas>
+        </div>
+        <div class="panel">
+          <h2>Savings trend</h2>
+          <canvas id="chart-savings" height="260"></canvas>
+        </div>
+      </div>
+
+      <div class="split">
+        <div class="panel">
+          <h2>Automated insights</h2>
+          <ul id="insight-list" class="insights">
+            <li>Loading…</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h2>Copilot</h2>
+          <p class="hint" style="margin-top: 0">
+            Ask in plain language. Intent is structured first; trusted code queries your data (models never write SQL).
+          </p>
+          <div class="chat">
+            <div id="chat-log" class="chat-log"></div>
+            <div class="copilot-input-row">
+              <input
+                id="copilot-query"
+                type="text"
+                autocomplete="off"
+                placeholder='Try: "Compare food expenses last 3 months"'
+              />
+              <button id="copilot-send" type="button">Send</button>
+            </div>
+            <div class="copilot-chart-wrap">
+              <canvas id="chart-copilot" height="220"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+  </body>
+</html>

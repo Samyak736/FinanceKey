@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Finance Copilot · Upload details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <div class="shell">
+      <div class="topbar">
+        <div class="brand">
+          <strong>Finance Copilot</strong>
+          <span>Upload details and history.</span>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center">
+          <a class="pill" href="{{ url_for('index') }}">Back to upload</a>
+          <a class="pill" href="{{ url_for('dashboard_page') }}">Dashboard</a>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>{{ upload.filename }}</h2>
+        <p class="hint">Uploaded at {{ upload.uploaded_at }}</p>
+        <div class="history-summary">
+          <div><strong>Records:</strong> {{ upload.record_count }}</div>
+          <div><strong>Credits:</strong> ₹{{ "%.2f" | format(upload.total_credits) }}</div>
+          <div><strong>Debits:</strong> ₹{{ "%.2f" | format(upload.total_debits) }}</div>
+          <div><strong>Period:</strong>
+            {% if upload.period_start and upload.period_end %}
+              {{ upload.period_start }} → {{ upload.period_end }}
+            {% else %}
+              —
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

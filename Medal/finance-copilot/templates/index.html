@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Finance Copilot · Upload</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <script>
+      window.__API_ROOT__ = {{ (request.script_root or "") | tojson }};
+    </script>
+  </head>
+  <body data-dashboard-url="{{ url_for('dashboard_page') }}">
+    <div class="shell">
+      <div class="topbar">
+        <div class="brand">
+          <strong>Finance Copilot</strong>
+          <span>CSV → intelligence → guided decisions</span>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center">
+          <a class="pill" href="{{ url_for('dashboard_page') }}">Open dashboard</a>
+          <a class="pill" href="{{ url_for('auth.logout') }}">Logout</a>
+        </div>
+      </div>
+
+      <div class="panel upload-zone">
+        <h2 style="margin: 0 0 8px; color: #e8eefc">Upload transactions</h2>
+        <p class="hint" style="margin: 0">
+          Columns should include date, description, and amount (debit/credit columns also supported).
+        </p>
+        <input id="file" type="file" accept=".csv,text/csv" />
+        <div style="margin-top: 16px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap">
+          <button id="sample-btn" class="secondary" type="button">Load sample CSV</button>
+          <a class="button secondary" href="{{ url_for('upload.download_sample_csv') }}">Download sample</a>
+        </div>
+        <div id="status" class="hint"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Past upload history</h2>
+        {% if history %}
+          <div class="history-table-wrap">
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th>File</th>
+                  <th>Uploaded</th>
+                  <th>Period</th>
+                  <th>Credits</th>
+                  <th>Debits</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for upload in history %}
+                  <tr>
+                    <td>{{ upload.filename }}</td>
+                    <td>{{ upload.uploaded_at }}</td>
+                    <td>
+                      {% if upload.period_start and upload.period_end %}
+                        {{ upload.period_start }} → {{ upload.period_end }}
+                      {% else %}
+                        —
+                      {% endif %}
+                    </td>
+                    <td>₹{{ "%.2f" | format(upload.total_credits) }}</td>
+                    <td>₹{{ "%.2f" | format(upload.total_debits) }}</td>
+                    <td><a class="button secondary" href="{{ url_for('upload_detail_page', upload_id=upload.id) }}">View</a></td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        {% else %}
+          <p class="hint">You have not uploaded any CSV files yet. Upload one to get started.</p>
+        {% endif %}
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/upload.js') }}"></script>
+  </body>
+</html>

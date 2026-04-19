@@ -1,0 +1,566 @@
+[Info | 2:57:46 AM | 1] [Medal Log Init] 3.1145.0.0 - 12/28/2025 2:57:46 AM
+
+[Info | 2:57:46 AM | 1] Remote config saved
+[Debug | 2:57:46 AM | 1] Updating environment to production on start
+[Debug | 2:57:46 AM | 1] Initialising Sentry with environment production and URL sentry.medal.tv
+[Info | 2:57:47 AM | 1] Honeycomb init successful, environment production and sample rate 30
+[Debug | 2:57:47 AM | 1] [Scope] [02:57:47.806402] [000001] trying to load Scope native library with default paths
+[Debug | 2:57:47 AM | 1] [Scope] [02:57:47.870362] [000001] Scope native library loaded (runtime 20.2, ScopeSharp 20.2)
+[Debug | 2:57:47 AM | 15] [Scope] [02:57:47.884821] [001FCC] Scope context initialising (API 20.2)
+[Debug | 2:57:47 AM | 15] [Scope] [02:57:47.885263] [001FCC] machine GUID: 594aad99-0032-4040-bcfd-9f5f80403aab
+[Info | 2:57:48 AM | 15] [Scope] [02:57:48.005723] [001FCC] sentry initialized successfully
+[Info | 2:57:48 AM | 15] [Scope] [02:57:48.009101] [001FCC] running on OS: Windows 10.0.22631.0
+[Debug | 2:57:48 AM | 15] [Scope] [02:57:48.009200] [001FCC] initialising DX device manager
+[Debug | 2:57:48 AM | 15] [Scope] [02:57:48.009405] [001FCC] initialising DX factories (iteration 1)
+[Debug | 2:57:48 AM | 15] [Scope] [02:57:48.032166] [001FCC] created DXGI factory at feature level 2
+[Debug | 2:57:48 AM | 15] [Scope] [02:57:48.036159] [001FCC] created D2D factory at feature level 7
+[Debug | 2:57:48 AM | 15] [Scope] [02:57:48.112864] [001FCC] created D3D9Ex factory
+[Debug | 2:57:48 AM | 15] [Scope] [02:57:48.149699] [001FCC] DXDeviceManager got default adapter LUID: 85423
+[Info | 2:57:48 AM | 1] Custom database location is C:\Users\91932\AppData\Roaming\Medal\CustomGameDatabase.db
+[Debug | 2:57:48 AM | 16] Window thread message loop starting: Common
+[Info | 2:57:48 AM | 1] Recorder running elevated: no
+[Info | 2:57:48 AM | 1] No other MedalEncoder instances running
+[Info | 2:57:48 AM | 1] Listening on http://localhost:10604/
+[Info | 2:57:48 AM | 1] [Connection] Using HTTP communication
+[Info | 2:57:48 AM | 1] User saved as -1 - undefined
+[Debug | 2:57:48 AM | 15] [Scope] [02:57:48.442014] [001FCC] WASAPI loopback device enum: found 2 devices, default: Headphones (2- Mivi DuoPods K2) ({0.0.0.00000000}.{6d330894-080e-4ad6-9b27-44a6159a97a0})
+[Debug | 2:57:48 AM | 15] [Scope] [02:57:48.447709] [001FCC] WASAPI capture device enum: found 2 devices, default: Microphone (Realtek(R) Audio) ({0.0.1.00000000}.{e2598557-1851-4b9a-9977-112d49282129})
+[Info | 2:57:48 AM | 1] Initial app settings - Advanced Window Capture is False - Aspect Ratio is Custom - Auth Key is <hidden> - Bitrate is 10 - Clip Folder is Clips/ - Codec is H264 - Concurrent Output Modes is False - Detect All Games is False - Development Mode Enabled is False - Discord Audio Enabled is False - Encoder is GPU - Environment is production - Experimental Capture is False - External File Sources is  - Force Window Capture is False - Full Session Mode Enabled is False - Game Audio Only Enabled is False - Game Controls Collection Enabled is True - Clip Saved Sound Alerts is True - Bookmark Saved Sound Alerts is True - Session Toggle Sound Alerts is True - Auto Clipping Sound Alerts is True - Disk Full Sound Alerts is True - Screenshot Sound Alerts is True - Global Sound Alerts is True - Clip Sound is default - Clip Sound Path is  - Audio Notification Volume is 1 - Game Sound Gain is 0.5 - HDR Compatibility is False - Hotkeys is [clip: shortpress of keyboard:F8] - ICYMI Enabled is False - ICYMI Event Settings is <hidden> - In Memory Buffer is False - JWT is <hidden> - Keyboard Mouse Overlay Enabled is False - Keyboard Mouse Overlay Position is 2 - Low Disk Space Backup Clip Folder is  - Manual Recording Enabled is False - Mic Enabled is False - Mic Noise Gate Enabled is False - Mic Noise Gate Threshold is -30 - Mic Noise Suppression Enabled is False - Mic Sound Gain is 0.5 - Monitor Device Name is  - Mono Mic Audio is False - Multiple Audio Tracks is False - Passive Game Switching Enabled is True - Prefer Game Capture is True - Push To Talk Enabled is False - Recording Enabled is True - Resolution is {Width=1280, Height=720} - Screen Capture Enabled is False - SDK Mode Enabled is False - Selected Audio Devices is [Auto] - Selected GPU Device is Auto - Selected Mic Device is Auto - Selected Webcam Device is {"id":"<None>","label":"<None>","value":"<None>"} - Show Cursor is False - Show Overlay is True - Target FPS is 30 - User ID is -1 - Username is undefined - Virtual Webcam Enumeration Enabled is False - Voice Clipping Enabled is False - Voice Clipping Assistant Names is [Medal] - Webcam Overlay Enabled is False - Webcam Overlay Position is 1
+[Info | 2:57:48 AM | 1] request user
+[Info | 2:57:48 AM | 1] request environment
+[Debug | 2:57:48 AM | 15] [Scope] [02:57:48.673670] [001FCC] DXDeviceManager created DXDevice for adapter Intel(R) Iris(R) Xe Graphics (LUID 85423) with usage 0
+[Debug | 2:57:49 AM | 8] Executing Request: set.sdkmode
+[Info | 2:57:50 AM | 8] job.respond 3c78e21b-dbc7-4ede-af2b-0444154d374f
+[Debug | 2:57:50 AM | 8] Executing Request: set.concurrentOutputModes
+[Debug | 2:57:50 AM | 14] job.respond "ok"
+[Debug | 2:57:50 AM | 8] Settings [scope:global]: Concurrent Output Modes changed from False --> True
+[Info | 2:57:50 AM | 8] job.respond 3a778710-e9f5-43f7-a323-a87b07d51037
+[Debug | 2:57:50 AM | 8] Executing Request: user
+[Debug | 2:57:50 AM | 13] job.respond "ok"
+[Info | 2:57:50 AM | 8] Username is base64 translated to Samyak_Ramteke
+[Debug | 2:57:50 AM | 8] Settings [scope:global]: User ID changed from -1 --> 504242484
+[Debug | 2:57:50 AM | 8] Settings [scope:global]: Username changed from undefined --> Samyak_Ramteke
+[Debug | 2:57:50 AM | 8] Settings [scope:global]: Auth Key changed from <hidden> --> <hidden>
+[Info | 2:57:50 AM | 8] User updated 504242484 - Samyak_Ramteke
+[Info | 2:57:50 AM | 8] job.respond fb2110ff-00d4-46ec-9427-7bfd8f8e155b
+[Debug | 2:57:50 AM | 8] Executing Request: get.hardwareId
+[Debug | 2:57:50 AM | 14] job.respond "ok"
+[Info | 2:57:51 AM | 1] Found 1 adapters:
+[Info | 2:57:51 AM | 1]     85423: Intel(R) Iris(R) Xe Graphics (8086:9A49), VRAM: 128 MiB, codecs: VP9 (NV12), H.264 (BGRA32), H.265 (BGRA32)
+[Info | 2:57:51 AM | 1] Supported video encoder options: Intel(R) Iris(R) Xe Graphics
+[Info | 2:57:51 AM | 1] Completed hardware encoder detection, found 1 hardware encoder options
+[Info | 2:57:51 AM | 1] Clip folder: Clips/
+[Debug | 2:57:51 AM | 1] Settings [scope:global]: Clip Folder changed from Clips/ --> C:\Medal
+[Info | 2:57:51 AM | 1] Selecting drive C:\ for backup clips folder with 147.7 GB available space
+[Debug | 2:57:51 AM | 1] Settings [scope:global]: Low Disk Space Backup Clip Folder changed from  --> C:\Medal
+[Info | 2:57:51 AM | 1] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 2:57:51 AM | 1] Remote Info: {"Version":"2.1528","Command":"none","Environment":"production"}
+[Info | 2:57:51 AM | 1] Local Info: {"Version":"0.0","Command":"none","Environment":"production"}
+[Info | 2:57:51 AM | 1] Downloading new game database from https://cdn.medal.tv/asset/games-db/production/MedalGameInfo-2.1528.db
+[Debug | 2:57:51 AM | 1] Going to switch to new game info DB from C:\Users\91932\AppData\Local\Medal\recorder-3.1145.0\MedalGameInfo.db
+[Debug | 2:57:51 AM | 1] Acquired game info DB write lock
+[Debug | 2:57:51 AM | 1] Successfully switched to new game info DB
+[Debug | 2:57:51 AM | 1] Released game info DB write lock
+[Info | 2:57:51 AM | 1] Game database updated. Version: {"Version":"2.1528","Command":"none","Environment":"production"}
+[Info | 2:57:51 AM | 1] GameDB: C:\Users\91932\AppData\Local\Medal\recorder-3.1145.0\MedalGameInfo.db
+[Warning | 2:57:51 AM | 1] Process tracker WMI start failed (access denied)
+[Debug | 2:57:51 AM | 1] ProcessTracker using polling backend (interval: 5.0s)
+[Info | 2:57:51 AM | 1] Current disk space 158564003840, min disk space requirement 1094000000
+[Info | 2:57:51 AM | 1] [ESM Event] - ConfigChanged
+[Debug | 2:57:51 AM | 1] Config change: VideoEncoderProperties (Global)
+[Info | 2:57:51 AM | 1] Set process priority to High
+[Debug | 2:57:51 AM | 10] Checking window:  (197864, Intermediate D3D Window)
+[Debug | 2:57:51 AM | 10] Checking window under process chrome against 0 games with LTs 
+[Debug | 2:57:51 AM | 10] Checking window:  (459876, ApplicationFrameTitleBarWindow)
+[Debug | 2:57:51 AM | 10] Checking window under process ApplicationFrameHost against 33 games with LTs 6, 3
+[Debug | 2:57:51 AM | 19] Window thread message loop starting: InputManager
+[Info | 2:57:51 AM | 1] Found 1 adapters:
+[Info | 2:57:51 AM | 1]     85423: Intel(R) Iris(R) Xe Graphics (8086:9A49), VRAM: 128 MiB, codecs: VP9 (NV12), H.264 (BGRA32), H.265 (BGRA32)
+[Info | 2:57:51 AM | 1] Supported video encoder options: Intel(R) Iris(R) Xe Graphics
+[Info | 2:57:51 AM | 1] Completed hardware encoder detection, found 1 hardware encoder options
+[Debug | 2:57:51 AM | 15] [Scope] [02:57:51.911300] [001FCC] Not enumerating virtual video capture devices
+[Info | 2:57:51 AM | 1] Sending available web cam devices {"availableDevices":[{"id":"\\\\?\\usb#vid_0c45&pid_6730&mi_00#6&318fb77&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"Integrated Webcam","value":"Integrated Webcam","type":"hcam"}],"selectedDevice":{"id":"<None>","label":"<None>","value":"<None>","type":null}}
+[Info | 2:57:51 AM | 1] Sending available GPU devices Intel(R) Iris(R) Xe Graphics
+[Debug | 2:57:51 AM | 10] Checking window:  (721680, ApplicationFrameInputSinkWindow)
+[Debug | 2:57:51 AM | 10] Checking window under process ApplicationFrameHost against 33 games with LTs 6, 3
+[Info | 2:57:52 AM | 1] Sending available GPU Codecs Intel(R) Iris(R) Xe Graphics: H264, H265
+[Info | 2:57:52 AM | 1] NVProfile: NVAPI dll not found.
+[Info | 2:57:52 AM | 1] GPUPreference: no existing preference found
+[Info | 2:57:52 AM | 1] GPUPreference: current preference 0 is OK, continuing
+[Info | 2:57:52 AM | 1] Performing MPO capability checks. IsForceDisabled: False
+[Info | 2:57:52 AM | 1]   Adapter: Intel(R) Iris(R) Xe Graphics (Vendor 0x8086, Device 0x9A49)
+[Info | 2:57:52 AM | 1]     Output 0: \\.\DISPLAY1 1920x1080 at (0,0) | SupportsOverlays: True | Formats: None | Planes (total/RGB/YUV): 3/3/2 | ColorSpace: RgbFullG22NoneP709
+[Debug | 2:57:52 AM | 1] OpenGL present mode not set
+[Info | 2:57:52 AM | 1] Initializing Electron overlay
+[Debug | 2:57:52 AM | 1] HookLibraryManager cleaned up 0 old hook DLLs, leaving 0
+[Info | 2:57:52 AM | 1] [MedalEncoder.Recording.HookLibraryManager] Set security permissions for C:\Users\91932\AppData\Local\Medal\HookDLL\MedalHook_Vulkan_134113444722109886\medal-hook32.dll
+[Info | 2:57:52 AM | 1] [MedalEncoder.Recording.HookLibraryManager] Set security permissions for C:\Users\91932\AppData\Local\Medal\HookDLL\MedalHook_Vulkan_134113444722109886\medal-hook64.dll
+[Info | 2:57:52 AM | 1] [MedalEncoder.Recording.HookLibraryManager] Set security permissions for C:\Users\91932\AppData\Local\Medal\HookDLL\MedalHook_Vulkan_134113444722109886\medal-vulkan32.json
+[Info | 2:57:52 AM | 1] [MedalEncoder.Recording.HookLibraryManager] Set security permissions for C:\Users\91932\AppData\Local\Medal\HookDLL\MedalHook_Vulkan_134113444722109886\medal-vulkan64.json
+[Debug | 2:57:52 AM | 1] Copied hook files for Vulkan support
+[Info | 2:57:52 AM | 1] Updated Vulkan registry info [C:\Users\91932\AppData\Local\Medal\HookDLL\MedalHook_Vulkan_134113444722109886]
+[Debug | 2:57:52 AM | 4] [HAGS] Status for Intel(R) Iris(R) Xe Graphics (85423): disabled (default disabled), driver support AlwaysOff, from D3DKMT/WDDM2.9
+[Debug | 2:57:52 AM | 8] hardwareId : I+9twl3scqVmY6ykJD7L5Gf0yPycJglF6QeH6DXAh1M=
+[Info | 2:57:52 AM | 8] job.respond db5ff068-7fb8-48b9-9a33-dcc8866f2e59
+[Debug | 2:57:52 AM | 8] Executing Request: get.hardwareId
+[Debug | 2:57:52 AM | 8] hardwareId : I+9twl3scqVmY6ykJD7L5Gf0yPycJglF6QeH6DXAh1M=
+[Info | 2:57:52 AM | 8] job.respond a89e8324-2237-419d-9088-4a3a8eeab6f7
+[Debug | 2:57:52 AM | 8] Executing Request: get.hardwareId
+[Debug | 2:57:52 AM | 8] hardwareId : I+9twl3scqVmY6ykJD7L5Gf0yPycJglF6QeH6DXAh1M=
+[Info | 2:57:52 AM | 8] job.respond 12ac984f-0241-4980-a7a9-ba57cb599fb6
+[Debug | 2:57:52 AM | 8] Executing Request: get.hardwareId
+[Debug | 2:57:52 AM | 8] hardwareId : I+9twl3scqVmY6ykJD7L5Gf0yPycJglF6QeH6DXAh1M=
+[Info | 2:57:52 AM | 8] job.respond ca996e7b-cb81-419b-9795-6a5bbc472471
+[Debug | 2:57:52 AM | 8] Executing Request: get.hardwareId
+[Debug | 2:57:52 AM | 8] hardwareId : I+9twl3scqVmY6ykJD7L5Gf0yPycJglF6QeH6DXAh1M=
+[Debug | 2:57:52 AM | 13] job.respond "ok"
+[Debug | 2:57:52 AM | 14] ShareHardwareId reply {"success":true}
+[Info | 2:57:52 AM | 8] job.respond fe4f3b55-bdad-426d-bda9-e1428740e742
+[Debug | 2:57:52 AM | 8] Executing Request: get.hardwareId
+[Debug | 2:57:52 AM | 8] hardwareId : I+9twl3scqVmY6ykJD7L5Gf0yPycJglF6QeH6DXAh1M=
+[Info | 2:57:52 AM | 8] job.respond 10a7449e-2577-4724-ac71-1f29ba556d79
+[Debug | 2:57:52 AM | 8] Executing Request: icymi.eventState
+[Debug | 2:57:52 AM | 13] job.respond "ok"
+[Debug | 2:57:52 AM | 14] ShareHardwareId reply {"success":true}
+[Debug | 2:57:52 AM | 14] job.respond "ok"
+[Debug | 2:57:52 AM | 12] ShareHardwareId reply {"success":true}
+[Warning | 2:57:52 AM | 1] [Dota2] Game Library Base Path is null -- cannot write GSI file.
+[Debug | 2:57:52 AM | 14] 1 logs of- ShareHardwareId reply {"success":true}
+[Debug | 2:57:52 AM | 14] job.respond "ok"
+[Warning | 2:57:52 AM | 1] [CounterStrike2] Game Library Base Path is null -- cannot write GSI file.
+[Info | 2:57:52 AM | 1] System supports GAO / process capture audio
+[Debug | 2:57:52 AM | 12] 1 logs of- System supports GAO / process capture audio
+[Debug | 2:57:52 AM | 12] ShareHardwareId reply {"success":true}
+[Debug | 2:57:52 AM | 12] 1 logs of- ShareHardwareId reply {"success":true}
+[Debug | 2:57:52 AM | 12] job.respond "ok"
+[Info | 2:57:52 AM | 1] No external file source settings
+[Info | 2:57:52 AM | 10] Memory-mapped file does not exist.
+[Info | 2:57:52 AM | 10] Config file not found at C:\Users\91932\AppData\Local\NVIDIA Corporation\NvNode\nodejs.json
+[Info | 2:57:52 AM | 10] Config file does not exist
+[Debug | 2:57:52 AM | 8] Settings [scope:various]: ICYMI Event Settings changed (multi-category update)
+[Info | 2:57:52 AM | 8] job.respond 7f597777-ba36-4d78-9ab6-59d03c482b7b
+[Debug | 2:57:52 AM | 8] Executing Request: get.hardwareId
+[Debug | 2:57:52 AM | 8] hardwareId : I+9twl3scqVmY6ykJD7L5Gf0yPycJglF6QeH6DXAh1M=
+[Info | 2:57:52 AM | 8] job.respond 42c3a0b4-66c8-4ebe-8770-710a75e39604
+[Debug | 2:57:52 AM | 14] job.respond "ok"
+[Debug | 2:57:52 AM | 8] Executing Request: set.useStringId
+[Warning | 2:57:52 AM | 8] No command for set.useStringId
+[Info | 2:57:52 AM | 8] job.respond 3c79b1ff-0197-46c9-902c-96660a42073c
+[Info | 2:57:52 AM | 8] [ESM Event] - ConfigChanged
+[Debug | 2:57:52 AM | 8] Config change: RecordingModes (Global), ICYMIEventSettings (Global)
+[Debug | 2:57:52 AM | 13] ShareHardwareId reply {"success":true}
+[Debug | 2:57:52 AM | 12] job.respond "ok"
+[Debug | 2:57:52 AM | 8] 1 logs of- job.respond "ok"
+[Debug | 2:57:52 AM | 8] PollDesktopJobQueue reply [{"uuid":"3c78e21b-dbc7-4ede-af2b-0444154d374f","body":{"enabled":false},"action":"set.sdkmode"},{"uuid":"3a778710-e9f5-43f7-a323-a87b07d51037","body":{"enabled":true},"action":"set.concurrentOutputModes"},{"uuid":"fb2110ff-00d4-46ec-9427-7bfd8f8e155b","body":{"userName.base64":"U2FteWFrX1JhbXRla2U=","key":"d69424b6-4ae3-4cb1-802c-438a732cb89a","userId":"504242484","userName":"Samyak_Ramteke","roles":[],"thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-money-pink.png","premiumType":"NONE"},"action":"user"},{"uuid":"db5ff068-7fb8-48b9-9a33-dcc8866f2e59","body":null,"action":"get.hardwareId"},{"uuid":"a89e8324-2237-419d-9088-4a3a8eeab6f7","body":null,"action":"get.hardwareId"},{"uuid":"12ac984f-0241-4980-a7a9-ba57cb599fb6","body":null,"action":"get.hardwareId"},{"uuid":"ca996e7b-cb81-419b-9795-6a5bbc472471","body":null,"action":"get.hardwareId"},{"uuid":"fe4f3b55-bdad-426d-bda9-e1428740e742","body":null,"action":"get.hardwareId"},{"uuid":"10a7449e-2577-4724-ac71-1f29ba556d79","body":null,"action":"get.hardwareId"},{"uuid":"7f597777-ba36-4d78-9ab6-59d03c482b7b","body":"<trimmed>","action":"icymi.eventState"},{"uuid":"42c3a0b4-66c8-4ebe-8770-710a75e39604","body":null,"action":"get.hardwareId"},{"uuid":"3c79b1ff-0197-46c9-902c-96660a42073c","body":{"enabled":true},"action":"set.useStringId"}]
+[Info | 2:57:52 AM | 1] TPGame API started at http://localhost:12665
+[Info | 2:57:52 AM | 1] Recorder Initialization Complete
+[Info | 2:57:52 AM | 8] Event queue health check has started.
+[Info | 2:57:52 AM | 24] Event queue processing has started.
+[Info | 2:57:52 AM | 1] ----[ESM State]: SelectTarget----
+[Info | 2:57:52 AM | 1] [ESM Event] - ConsiderSwitchRecording
+[Debug | 2:57:52 AM | 24] [EventProcessor] [->] ConsiderSwitchRecording
+[Info | 2:57:52 AM | 1] request environment reply "production"
+[Debug | 2:57:52 AM | 1] encoder options reply "ok"
+[Debug | 2:57:52 AM | 1] SendAvailableWebCamDevices reply {"overlay":{"position":{"index":1,"value":"Top Right"}},"device":{"options":[{"id":"\\\\?\\usb#vid_0c45&pid_6730&mi_00#6&318fb77&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"Integrated Webcam","value":"Integrated Webcam","type":"hcam"}],"selected":{"id":"<None>","label":"<None>","value":"<None>","type":null}}}
+[Debug | 2:57:52 AM | 1] SendAvailableGPUDevices reply {"success":true}
+[Debug | 2:57:52 AM | 1] SendAvailableGPUCodecs reply {"success":true}
+[Info | 2:57:52 AM | 1] Initialization complete reply "ok"
+[Info | 2:57:52 AM | 24] [SelectTarget] Considering switching target while idle
+[Debug | 2:57:52 AM | 4] Hardware collection completed in 1060.838ms
+[Debug | 2:57:52 AM | 4] {"GPU":[{"Name":"Intel(R) Iris(R) Xe Graphics","VideoProcessor":"Intel(R) Iris(R) Xe Graphics","AdapterDACType":"Internal","InstalledDisplayDrivers":"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_d71a22cbbfee3077\\igdumdim64.dll,C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_d71a22cbbfee3077\\igd10iumd64.dll,C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_d71a22cbbfee3077\\igd10iumd64.dll,C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_d71a22cbbfee3077\\igd12umd64.dll","AdapterRAM":"2.0 GB","AdapterRAMBytes":"2147479552","DriverVersion":"101.7077","Vendor":"Intel"}],"HardDrives":[{"Name":"Drive C:\\","Drive type":"Fixed","Volume label":"OS","File system":"NTFS","Available space to current user":"147.7 GB","Total available space":"147.7 GB","Total size of drive":"459.7 GB","Root directory":"C:\\","MediaType":"SSD"}],"CPU":[{"Name":"11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz","DeviceID":"CPU0","Manufacturer":"GenuineIntel","CurrentClockSpeed":"2419","Caption":"Intel64 Family 6 Model 140 Stepping 1","NumberOfCores":"4","NumberOfEnabledCore":"4","NumberOfLogicalProcessors":"8","Architecture":"x64","Family":"205","ProcessorType":"Central Processor","AddressWidth":"64","MaxClockSpeed":"2419 MHz","InstructionSet":"AVX512F"}],"Memory":[{"Capacity":"8192","Manufacturer":"80AD000080AD","PartNumber":"HMAA1GS6CJR6N-XN","Speed":"3200","MemoryType":"Unknown"}],"OS":[{"Caption":"Microsoft Windows 11 Home Single Language","WindowsDirectory":"C:\\WINDOWS","ProductType":"1","SystemDirectory":"C:\\WINDOWS\\system32","CountryCode":"1","CurrentTimeZone":"330","Locale":"0409","EncryptionLevel":"256","OSArchitecture":"64-bit","OSLanguage":"1033","OSType":"18","Version":"10.0.22631","HAGSEnabled":"False"}],"Monitors":[{"Name":"","BitsPerPixel":"32","ScreenWidth":"1920","ScreenHeight":"1080","Primary":"True","AspectRatio":"16:9","Diagonal":"15"}],"Sound":[{"Name":"Realtek Audio","ProductName":"Realtek Audio","DeviceID":"INTELAUDIO\\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280AB0&REV_1000\\5&265BF532&0&0001","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"},{"Name":"Intel® Smart Sound Technology for USB Audio","ProductName":"Intel® Smart Sound Technology for USB Audio","DeviceID":"INTELAUDIO\\CTLR_DEV_A0C8&LINKTYPE_06&DEVTYPE_06&VEN_8086&DEV_AE50&SUBSYS_0AB01028&REV_0001\\0601","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"}],"Motherboard":[{"Name":"Base Board","Model":"null","Manufacturer":"Dell Inc.","SlotLayout":"null","Product":"0042CN"}],"Keyboard":[{"Name":"USB Input Device"},{"Name":"HID Keyboard Device"},{"Name":"Standard PS/2 Keyboard"},{"Name":"HID Keyboard Device"}],"Mouse":[{"Name":"HID-compliant mouse","Manufacturer":"Microsoft"},{"Name":"HID-compliant mouse","Manufacturer":"Microsoft"}],"Controllers":[],"Encoder":[{"Name":"GPU"}],"Battery":[{"Present":"True"}]}
+[Debug | 2:57:53 AM | 24] Considering recording with 0 hint targets and 0 avoid targets
+[Info | 2:57:53 AM | 4] Sending hardware info
+[Info | 2:57:53 AM | 9] User updated 504242484 - Samyak_Ramteke
+[Debug | 2:57:53 AM | 24] No viable targets available
+[Debug | 2:57:53 AM | 24] [EventProcessor] [<-] ConsiderSwitchRecording ElapsedTime: 96ms
+[Debug | 2:57:53 AM | 4] SendHardwareInfo reply {"success":true}
+[Debug | 2:57:53 AM | 12] Executing Request: get.hardwareId
+[Debug | 2:57:53 AM | 12] hardwareId : I+9twl3scqVmY6ykJD7L5Gf0yPycJglF6QeH6DXAh1M=
+[Info | 2:57:53 AM | 12] job.respond e340c8d3-2523-4522-8b3d-dc0d6bbe259e
+[Debug | 2:57:53 AM | 12] Executing Request: set.soundSettings
+[Debug | 2:57:53 AM | 13] ShareHardwareId reply {"success":true}
+[Debug | 2:57:53 AM | 13] job.respond "ok"
+[Debug | 2:57:53 AM | 12] Settings [scope:global]: Clip Sound Path changed from  --> default
+[Info | 2:57:53 AM | 12] job.respond acfe7931-7096-4706-b561-eb4717e8545c
+[Debug | 2:57:53 AM | 12] Executing Request: set.allSettings
+[Debug | 2:57:53 AM | 14] job.respond "ok"
+[Debug | 2:57:53 AM | 12] Disabling saving of recorder settings file
+[Info | 2:57:53 AM | 12] Received settings
+[Debug | 2:57:53 AM | 12] Settings [scope:global]: Selected Audio Devices changed from [Auto] --> [Auto]
+[Debug | 2:57:53 AM | 12] Settings [scope:global]: Selected Webcam Device changed from {"id":"<None>","label":"<None>","value":"<None>"} --> {
+  "id": "\\\\?\\usb#vid_0c45&pid_6730&mi_00#6&318fb77&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global",
+  "label": "Integrated Webcam",
+  "value": "Integrated Webcam",
+  "type": "hcam"
+}
+[Debug | 2:57:53 AM | 15] [Scope] [02:57:53.774208] [002A00] Not enumerating virtual video capture devices
+[Info | 2:57:53 AM | 23] Sending available web cam devices {"availableDevices":[{"id":"\\\\?\\usb#vid_0c45&pid_6730&mi_00#6&318fb77&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"Integrated Webcam","value":"Integrated Webcam","type":"hcam"}],"selectedDevice":{"id":"\\\\?\\usb#vid_0c45&pid_6730&mi_00#6&318fb77&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"Integrated Webcam","value":"Integrated Webcam","type":"hcam"}}
+[Debug | 2:57:53 AM | 14] SendAvailableWebCamDevices reply {"overlay":{"position":{"index":1,"value":"Top Right"}},"device":{"options":[{"id":"\\\\?\\usb#vid_0c45&pid_6730&mi_00#6&318fb77&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"Integrated Webcam","value":"Integrated Webcam","type":"hcam"}],"selected":{"id":"\\\\?\\usb#vid_0c45&pid_6730&mi_00#6&318fb77&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"Integrated Webcam","value":"Integrated Webcam","type":"hcam"}}}
+[Warning | 2:57:53 AM | 12] No command for set.webcam.device
+[Debug | 2:57:53 AM | 12] Settings [scope:global]: In Memory Buffer changed from False --> True
+[Info | 2:57:53 AM | 12] Sending Bitrate Setting
+[Info | 2:57:53 AM | 13] SendBitrateSetting reply "ok"
+[Debug | 2:57:53 AM | 12] Settings [scope:global]: Target FPS changed from 30 --> 60
+[Warning | 2:57:53 AM | 12] No command for set.soundalerts
+[Warning | 2:57:53 AM | 12] No command for set.bookmarksoundalerts
+[Debug | 2:57:53 AM | 12] Settings [scope:global]: Clip Folder changed from C:\Medal --> C:\Medal\
+[Warning | 2:57:53 AM | 12] No command for set.autoUploadState
+[Warning | 2:57:53 AM | 12] No command for set.autoUpload
+[Debug | 2:57:54 AM | 12] Settings [scope:global]: Voice Clipping Assistant Names changed from [Medal] --> [Medal]
+[Debug | 2:57:54 AM | 12] Settings [scope:global]: Multiple Audio Tracks changed from False --> True
+[Warning | 2:57:54 AM | 12] No command for set.holdToRecordEnabled
+[Debug | 2:57:54 AM | 12] Settings [scope:global]: ICYMI Enabled changed from False --> True
+[Warning | 2:57:54 AM | 12] No command for set.icymisoundalerts
+[Debug | 2:57:54 AM | 12] Settings [scope:various]: ICYMI Event Settings changed (multi-category update)
+[Warning | 2:57:54 AM | 12] No command for set.overlayCurrentInjectedMode
+[Debug | 2:57:54 AM | 12] Settings [scope:global]: Mic Noise Gate Threshold changed from -30 --> -100
+[Debug | 2:57:54 AM | 12] Settings [scope:global]: External File Sources changed from  --> {
+  "nativeOptions": [
+    {
+      "label": "NVIDIA ShadowPlay",
+      "value": "shadowplay",
+      "enabled": false,
+      "freeUpSpace": false
+    },
+    {
+      "label": "AMD ReLive",
+      "value": "relive",
+      "enabled": false,
+      "freeUpSpace": false
+    },
+    {
+      "label": "OBS",
+      "value": "obs",
+      "enabled": false,
+      "freeUpSpace": false
+    }
+  ],
+  "folders": []
+}
+[Info | 2:57:54 AM | 12] Setting up external recorders
+[Info | 2:57:54 AM | 12] External recorder shadowplay is disabled
+[Info | 2:57:54 AM | 12] External recorder relive is disabled
+[Info | 2:57:54 AM | 12] External recorder obs is disabled
+[Info | 2:57:54 AM | 12] External recorder setup complete
+[Warning | 2:57:54 AM | 12] No command for set.advancedOverlayEnabled
+[Info | 2:57:54 AM | 12] Empty monitor device name, using primary monitor \\.\DISPLAY1
+[Debug | 2:57:54 AM | 12] Settings [scope:global]: Monitor Device Name changed from  --> \\.\DISPLAY1
+[Debug | 2:57:54 AM | 12] Settings [scope:global]: Hotkeys changed from [clip: shortpress of keyboard:F8] --> [clip;length=30: short_press of keyboard:F8, screenshot: short_press of keyboard:F7, segment_toggle: short_press of keyboard:ALT + F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v, bookmark: short_press of keyboard:F8]
+[Debug | 2:57:54 AM | 12] Settings [scope:global]: Codec changed from H264 --> <null>
+[Info | 2:57:54 AM | 12] Windows Game Mode disabled.
+[Info | 2:57:54 AM | 20] Updated hotkeys for (none), now have 9 hotkeys configured
+[Debug | 2:57:54 AM | 12] Settings [scope:global]: Auto Clipping Sound Alerts changed from True --> False
+[Info | 2:57:54 AM | 12] [ESM Event] - ConfigChanged
+[Debug | 2:57:54 AM | 12] Config change: MaxClipDuration (Global), VideoCaptureProperties (Global), VideoEncoderProperties (Global), AudioInputLayout (Global), AudioProcessorProperties (Global), AudioOutputLayout (Global), ClipBufferStorageType (Global), ScreenRecordingMonitor (Global), VoiceClippingProperties (Global), ICYMIEventSettings (Global), OverlayProperties (Global)
+[Debug | 2:57:54 AM | 12] Enabling saving of recorder settings file
+[Debug | 2:57:54 AM | 24] [EventProcessor] [->] ConfigChanged
+[Debug | 2:57:54 AM | 24] Handling config change while waiting to select target: MaxClipDuration (Global), VideoCaptureProperties (Global), VideoEncoderProperties (Global), AudioInputLayout (Global), AudioProcessorProperties (Global), AudioOutputLayout (Global), ClipBufferStorageType (Global), ScreenRecordingMonitor (Global), VoiceClippingProperties (Global), ICYMIEventSettings (Global), OverlayProperties (Global)
+[Debug | 2:57:54 AM | 12] Saved recorder settings file after re-enable
+[Info | 2:57:54 AM | 12] job.respond 0922c0b6-58d3-421a-bb5e-0f04f12112ac
+[Debug | 2:57:54 AM | 12] Executing Request: get.availableMicDevices
+[Debug | 2:57:54 AM | 24] [EventProcessor] [<-] ConfigChanged ElapsedTime: 26ms
+[Debug | 2:57:54 AM | 14] job.respond "ok"
+[Info | 2:57:54 AM | 12] Sending available mic devices Microphone (Realtek(R) Audio), Headset (2- Mivi DuoPods K2)
+[Info | 2:57:54 AM | 12] job.respond f0a9e8f1-cea1-4b7f-be09-e431eb771678
+[Debug | 2:57:54 AM | 12] Executing Request: get.availableAudioDevices
+[Debug | 2:57:54 AM | 13] SendAvailableMicDevices reply {"success":true}
+[Debug | 2:57:54 AM | 13] job.respond "ok"
+[Info | 2:57:54 AM | 12] Sending available audio devices Headphones (2- Mivi DuoPods K2), Speakers (Realtek(R) Audio)
+[Info | 2:57:54 AM | 12] job.respond 09e7a2c7-4594-4fc5-b84f-66ec66ad3983
+[Debug | 2:57:54 AM | 12] Executing Request: get.micAudioDevice
+[Debug | 2:57:54 AM | 14] SendAvailableAudioDevices reply {"success":true}
+[Debug | 2:57:54 AM | 14] job.respond "ok"
+[Debug | 2:57:54 AM | 15] [Scope] [02:57:54.523052] [00058C] WASAPI capture device enum: found 2 devices, default: Microphone (Realtek(R) Audio) ({0.0.1.00000000}.{e2598557-1851-4b9a-9977-112d49282129})
+[Info | 2:57:54 AM | 12] Sending selected mic device Auto
+[Info | 2:57:54 AM | 12] job.respond b5037522-eaf9-40ea-8836-5e3ba3b9b2f6
+[Debug | 2:57:54 AM | 12] Executing Request: get.gameSoundAudioDevice
+[Debug | 2:57:54 AM | 13] SendSelectedMicDevice reply {"success":true}
+[Debug | 2:57:54 AM | 13] job.respond "ok"
+[Debug | 2:57:54 AM | 15] [Scope] [02:57:54.542999] [00058C] WASAPI loopback device enum: found 2 devices, default: Headphones (2- Mivi DuoPods K2) ({0.0.0.00000000}.{6d330894-080e-4ad6-9b27-44a6159a97a0})
+[Info | 2:57:54 AM | 12] Sending selected audio output devices Auto
+[Info | 2:57:54 AM | 12] job.respond 70b0ae16-3aea-45aa-b5ba-246cade21cd4
+[Debug | 2:57:54 AM | 12] Executing Request: set.jwt
+[Debug | 2:57:54 AM | 13] SendSelectedAudioDevices reply {"success":true}
+[Debug | 2:57:54 AM | 13] job.respond "ok"
+[Debug | 2:57:54 AM | 12] Settings [scope:global]: JWT changed from <hidden> --> <hidden>
+[Info | 2:57:54 AM | 12] JWT validation is successful
+[Info | 2:57:54 AM | 12] job.respond d1dd76b1-694e-4aea-a46f-d89717b62ea0
+[Debug | 2:57:54 AM | 12] Executing Request: get.GAODisabledList
+[Warning | 2:57:54 AM | 12] No command for get.GAODisabledList
+[Info | 2:57:54 AM | 12] job.respond 7b2c4fc5-a72a-44f3-ad44-1b1ce3be038a
+[Debug | 2:57:54 AM | 12] Executing Request: get.gamePluginsInstalled
+[Debug | 2:57:54 AM | 13] job.respond "ok"
+[Debug | 2:57:54 AM | 12] 1 logs of- job.respond "ok"
+[Info | 2:57:54 AM | 12] job.respond 2e9d8819-f46c-4e3e-88e4-bc11e9e41fbe
+[Debug | 2:57:54 AM | 12] PollDesktopJobQueue reply [{"uuid":"e340c8d3-2523-4522-8b3d-dc0d6bbe259e","body":null,"action":"get.hardwareId"},{"uuid":"acfe7931-7096-4706-b561-eb4717e8545c","body":{"clipSoundPath":"default"},"action":"set.soundSettings"},{"uuid":"0922c0b6-58d3-421a-bb5e-0f04f12112ac","body":"<trimmed>","action":"set.allSettings"},{"uuid":"f0a9e8f1-cea1-4b7f-be09-e431eb771678","body":null,"action":"get.availableMicDevices"},{"uuid":"09e7a2c7-4594-4fc5-b84f-66ec66ad3983","body":null,"action":"get.availableAudioDevices"},{"uuid":"b5037522-eaf9-40ea-8836-5e3ba3b9b2f6","body":null,"action":"get.micAudioDevice"},{"uuid":"70b0ae16-3aea-45aa-b5ba-246cade21cd4","body":null,"action":"get.gameSoundAudioDevice"},{"uuid":"d1dd76b1-694e-4aea-a46f-d89717b62ea0","body":{"jwt":"eyJhbGciOiJFUzI1NiJ9.eyJhdWQiOlsibWVkYWwtcmVjb3JkZXIiXSwiY25mIjp7ImNydCI6Ii0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLVxuTUlJQk9EQ0IzNkFEQWdFQ0FnaG5jRHFFSVMzd1p6QUtCZ2dxaGtqT1BRUURBakFiTVJrd0Z3WURWUVFEREJCb1xuZEhSd2N6b3ZMMjFsWkdGc0xuUjJNQjRYRFRJMU1USXlOekEyTlRFd09Gb1hEVEkyTURFeE1EQTJOVEV3T0Zvd1xuS2pFb01DWUdBMVVFQXd3ZlNsZFVJSE5wWjI1bGNpQm1iM0lnYUhSMGNITTZMeTl0WldSaGJDNTBkakJaTUJNR1xuQnlxR1NNNDlBZ0VHQ0NxR1NNNDlBd0VIQTBJQUJNendsdW1jNVVpN01LUmdCRkhabmt5bUcrdWJMejZIcWJoY1xuMnVlNWlQREJ6bSsxU09IWDBuOVN4TE5Kd29xVUVYeFNobUhWaVVudFg5SUZvbjYrR1I4d0NnWUlLb1pJemowRVxuQXdJRFNBQXdSUUlnVHpid0kwcFE0U1cxZXFjZko5V0s0N0dzNDgzc1Y5d3lOcDRSVXViS1ZSSUNJUURrK0RZOVxudG80U0lOZUU3Z1QyY3ozZ1ZjWm0vUzBORDkwRzRXd3EydUkwMkE9PVxuLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLSJ9LCJjYXBhYmlsaXRpZXMiOnsidXBsb2FkZWRDb250ZW50TWF4RHVyYXRpb25TZWNvbmRzIjo2MDAsInVwbG9hZGVkQ29udGVudE1heFJlc29sdXRpb24iOjE5MjAsInVwbG9hZGVkQ29udGVudE1heEZyYW1lUmF0ZSI6NjAsImFuaW1hdGVkVXNlclRodW1ibmFpbCI6ZmFsc2UsImhhc1RpZXIxU3Vic2NyaWJlclJvbGUiOmZhbHNlLCJoYXNUaWVyMlN1YnNjcmliZXJSb2xlIjpmYWxzZSwiaGFzVGllcjFGb3VuZGVyUm9sZSI6ZmFsc2UsImhhc1RpZXIyRm91bmRlclJvbGUiOmZhbHNlLCJoYXNWZXJpZmllZFJvbGUiOmZhbHNlLCJoYXNDcmVhdG9yU3VwcG9ydGVyUm9sZSI6ZmFsc2UsImhhc1RpZXIxRGlzY29yZFN1YnNjcmliZXJSb2xlIjpmYWxzZSwiaGFzVGllcjJEaXNjb3JkU3Vic2NyaWJlclJvbGUiOmZhbHNlLCJoYXNUaWVyMURpc2NvcmRGb3VuZGVyUm9sZSI6ZmFsc2UsImhhc1RpZXIyRGlzY29yZEZvdW5kZXJSb2xlIjpmYWxzZSwid2F0ZXJtYXJrRGlzYWJsZWFibGUiOmZhbHNlLCJkb3dubG9hZFdpdGhvdXRXYXRlcm1hcmsiOmZhbHNlLCJwcmlvcml0eUNoYXRTdXBwb3J0IjpmYWxzZSwiYXV0b1VwbG9hZHMiOmZhbHNlLCJjbG91ZFN5bmMiOmZhbHNlLCJ2aWV3Q29udGVudFZpZXdlcnMiOnRydWUsInNjcmVlblJlY29yZGluZyI6dHJ1ZSwidXBsb2FkU2NyZWVuUmVjb3JkaW5ncyI6dHJ1ZSwiY2FuUmVjb3JkIjp0cnVlLCJza2lwQWRzIjpmYWxzZSwidXBsb2FkSW1wb3J0ZWRDbGlwcyI6dHJ1ZSwidXNlUHJlbWl1bUljb25zIjpmYWxzZSwiY3VzdG9tQ2xpcFNvdW5kcyI6ZmFsc2V9LCJjbGllbnRfaWQiOiJJKzl0d2wzc2NxVm1ZNnlrSkQ3TDVHZjB5UHljSmdsRjZRZUg2RFhBaDFNPSIsImlzcyI6Imh0dHBzOi8vbWVkYWwudHYiLCJzdWIiOiJ1c2VyOjUwNDI0MjQ4NCIsImlhdCI6MTc2Njg3MDg3MiwiZXhwIjoxNzY3NDc1NjcyfQ.Nk-K87_DmqYnHJjaKKr97FbKsWEb0TRPZQ1s8ODIMx9hORcG-j15Ob3nNjbYN-Szm_yKMYiP2Vi_yWkwoj0Gfg"},"action":"set.jwt"},{"uuid":"7b2c4fc5-a72a-44f3-ad44-1b1ce3be038a","body":null,"action":"get.GAODisabledList"},{"uuid":"2e9d8819-f46c-4e3e-88e4-bc11e9e41fbe","body":null,"action":"get.gamePluginsInstalled"}]
+[Debug | 2:57:54 AM | 11] ShareGamePluginsInstalled reply {"success":true}
+[Debug | 2:57:54 AM | 11] job.respond "ok"
+[Debug | 2:58:32 AM | 25] Executing Request: set.bookmarkModeEnabled
+[Info | 2:58:32 AM | 25] job.respond 2cddf554-bde3-43e5-bf0e-59d8e2d93841
+[Debug | 2:58:32 AM | 25] Executing Request: set.fullSessionModeEnabled
+[Debug | 2:58:32 AM | 11] job.respond "ok"
+[Info | 2:58:32 AM | 25] job.respond a94b127f-eaaf-4cbc-8d33-fe07a00291e4
+[Debug | 2:58:32 AM | 25] Executing Request: set.hotkeys
+[Debug | 2:58:32 AM | 12] job.respond "ok"
+[Debug | 2:58:32 AM | 25] Settings [scope:global]: Hotkeys changed from [clip;length=30: short_press of keyboard:F8, screenshot: short_press of keyboard:F7, segment_toggle: short_press of keyboard:ALT + F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v, bookmark: short_press of keyboard:F8] --> [clip;length=180: short_press of keyboard:F8, screenshot: short_press of keyboard:F7, segment_toggle: short_press of keyboard:ALT + F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v, bookmark: short_press of keyboard:F8]
+[Info | 2:58:32 AM | 25] job.respond 13c957f6-032d-423d-bbb7-57fd2300fdf1
+[Debug | 2:58:32 AM | 25] Executing Request: ICYMIEnabled
+[Debug | 2:58:32 AM | 25] Settings [scope:global]: ICYMI Enabled changed from True --> False
+[Info | 2:58:32 AM | 22] Updated hotkeys for (none), now have 9 hotkeys configured
+[Debug | 2:58:32 AM | 26] job.respond "ok"
+[Info | 2:58:33 AM | 25] job.respond 828fc48e-fe97-4be2-8ca1-5f2975375dfa
+[Info | 2:58:33 AM | 25] [ESM Event] - ConfigChanged
+[Debug | 2:58:33 AM | 25] Config change: MaxClipDuration (Global)
+[Debug | 2:58:33 AM | 11] job.respond "ok"
+[Debug | 2:58:33 AM | 24] [EventProcessor] [->] ConfigChanged
+[Debug | 2:58:33 AM | 24] Handling config change while waiting to select target: MaxClipDuration (Global)
+[Debug | 2:58:33 AM | 24] [EventProcessor] [<-] ConfigChanged ElapsedTime: 0ms
+[Debug | 2:58:33 AM | 25] PollDesktopJobQueue reply [{"uuid":"2cddf554-bde3-43e5-bf0e-59d8e2d93841","body":{"enabled":false},"action":"set.bookmarkModeEnabled"},{"uuid":"a94b127f-eaaf-4cbc-8d33-fe07a00291e4","body":{"enabled":false},"action":"set.fullSessionModeEnabled"},{"uuid":"13c957f6-032d-423d-bbb7-57fd2300fdf1","body":{"hotkeys":[{"device":"keyboard","inputs":"F8","type":"short_press","action":"clip;length=180"},{"device":"keyboard","inputs":"F7","type":"short_press","action":"screenshot"},{"device":"keyboard","inputs":"ALT + F7","type":"short_press","action":"segment_toggle"},{"device":"keyboard","inputs":"ALT + SHIFT + d","type":"short_press","action":"callback;event=dismiss"},{"device":"keyboard","inputs":"ALT + SHIFT + c","type":"short_press","action":"callback;event=acceptMessageRequest"},{"device":"keyboard","inputs":"ALT + SHIFT + x","type":"short_press","action":"callback;event=declineVoice"},{"device":"keyboard","inputs":"ALT + SHIFT + z","type":"short_press","action":"callback;event=answerVoice"},{"device":"keyboard","inputs":"ALT + SHIFT + v","type":"short_press","action":"callback;event=viewScreenshot"},{"device":"keyboard","inputs":"F8","type":"short_press","action":"bookmark"}]},"action":"set.hotkeys"},{"uuid":"828fc48e-fe97-4be2-8ca1-5f2975375dfa","body":{"enabled":0},"action":"ICYMIEnabled"}]
+[Debug | 2:59:03 AM | 26] Executing Request: set.micinput
+[Info | 2:59:03 AM | 26] job.respond 42bff973-9661-429f-94df-2ec9adaaedd0
+[Debug | 2:59:03 AM | 26] PollDesktopJobQueue reply [{"uuid":"42bff973-9661-429f-94df-2ec9adaaedd0","body":{"micinput":0},"action":"set.micinput"}]
+[Debug | 2:59:03 AM | 25] job.respond "ok"
+[Debug | 3:00:36 AM | 12] Executing Request: set.resolution
+[Debug | 3:00:36 AM | 12] Settings [scope:global]: Resolution changed from {Width=1280, Height=720} --> {Width=1920, Height=1080}
+[Debug | 3:00:36 AM | 12] Settings [scope:global]: Bitrate changed from 10 --> 15
+[Info | 3:00:36 AM | 12] Sending Bitrate Setting
+[Info | 3:00:36 AM | 12] job.respond 1e6d03f9-e483-4ed8-be66-96f0d0af8164
+[Debug | 3:00:36 AM | 12] Executing Request: set.bitrate
+[Info | 3:00:36 AM | 9] SendBitrateSetting reply "ok"
+[Debug | 3:00:36 AM | 9] job.respond "ok"
+[Info | 3:00:36 AM | 12] job.respond 01dcfb8c-5879-43c8-9ff4-9629a3d3e9b3
+[Debug | 3:00:36 AM | 12] Executing Request: set.fps
+[Debug | 3:00:36 AM | 13] job.respond "ok"
+[Info | 3:00:36 AM | 12] job.respond 13358d6d-9663-4b38-88be-71c775f24779
+[Info | 3:00:36 AM | 12] [ESM Event] - ConfigChanged
+[Debug | 3:00:36 AM | 12] Config change: VideoOutputResolution (Global), VideoEncoderProperties (Global)
+[Debug | 3:00:36 AM | 24] [EventProcessor] [->] ConfigChanged
+[Debug | 3:00:36 AM | 12] PollDesktopJobQueue reply [{"uuid":"1e6d03f9-e483-4ed8-be66-96f0d0af8164","body":{"resolution":"Full HD (1080p)"},"action":"set.resolution"},{"uuid":"01dcfb8c-5879-43c8-9ff4-9629a3d3e9b3","body":{"bitrate":"15"},"action":"set.bitrate"},{"uuid":"13358d6d-9663-4b38-88be-71c775f24779","body":{"fps":"60"},"action":"set.fps"}]
+[Debug | 3:00:36 AM | 24] Handling config change while waiting to select target: VideoOutputResolution (Global), VideoEncoderProperties (Global)
+[Debug | 3:00:36 AM | 9] job.respond "ok"
+[Debug | 3:00:36 AM | 24] [EventProcessor] [<-] ConfigChanged ElapsedTime: 0ms
+[Debug | 3:00:40 AM | 9] Executing Request: get.activeDisplays
+[Info | 3:00:40 AM | 9] Monitor 0- DeviceName="\\.\DISPLAY1" FriendlyName="" Screenshot="C:\Users\91932\AppData\Local\Temp\Medal\Screenshots\DISPLAY1\MedalTVDISPLAY120251228030040170.jpg"
+[Info | 3:00:40 AM | 9] job.respond dd778476-60d7-4c00-9355-7ae9b60ce512
+[Debug | 3:00:40 AM | 9] PollDesktopJobQueue reply [{"uuid":"dd778476-60d7-4c00-9355-7ae9b60ce512","body":{"captureScreenshots":true},"action":"get.activeDisplays"}]
+[Debug | 3:00:40 AM | 26] ShareActiveDisplays reply {"success":true}
+[Debug | 3:00:40 AM | 26] job.respond "ok"
+[Debug | 3:00:50 AM | 26] Executing Request: get.activeDisplays
+[Info | 3:00:50 AM | 26] Monitor 0- DeviceName="\\.\DISPLAY1" FriendlyName="" Screenshot="C:\Users\91932\AppData\Local\Temp\Medal\Screenshots\DISPLAY1\MedalTVDISPLAY120251228030050271.jpg"
+[Info | 3:00:50 AM | 26] job.respond 5fda6e87-13ce-4b0d-ab58-c11f49468c6f
+[Debug | 3:00:50 AM | 26] Executing Request: set.monitorDeviceName
+[Info | 3:00:50 AM | 26] job.respond 782183b4-ca89-4e06-bdec-1d4d283fb9f8
+[Debug | 3:00:50 AM | 26] Executing Request: set.toggleScreenCapture
+[Debug | 3:00:50 AM | 13] ShareActiveDisplays reply {"success":true}
+[Debug | 3:00:50 AM | 26] Settings [scope:global]: Screen Capture Enabled changed from False --> True
+[Debug | 3:00:50 AM | 13] job.respond "ok"
+[Debug | 3:00:50 AM | 12] job.respond "ok"
+[Info | 3:00:50 AM | 26] job.respond e49fa0d0-e851-4252-b6c2-eadb04cde607
+[Info | 3:00:50 AM | 26] [ESM Event] - ConfigChanged
+[Debug | 3:00:50 AM | 26] Config change: IsScreenRecordingActive (Global)
+[Debug | 3:00:50 AM | 13] job.respond "ok"
+[Info | 3:00:50 AM | 22] [Game Status]: game/started - Screen Recording[1b7CpvXVSuB]
+[Info | 3:00:50 AM | 26] Starting InputManager.
+[Info | 3:00:50 AM | 26] Check for input devices
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.498329] [000E00] pipeline starting to process user actions
+[Info | 3:00:50 AM | 26] InputManager started.
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.518985] [003F94] starting pipeline
+[Debug | 3:00:50 AM | 24] [EventProcessor] [->] ConfigChanged
+[Debug | 3:00:50 AM | 24] Handling config change while waiting to select target: IsScreenRecordingActive (Global)
+[Debug | 3:00:50 AM | 26] PollDesktopJobQueue reply [{"uuid":"5fda6e87-13ce-4b0d-ab58-c11f49468c6f","body":{"captureScreenshots":true},"action":"get.activeDisplays"},{"uuid":"782183b4-ca89-4e06-bdec-1d4d283fb9f8","body":{"monitorDeviceName":"\\\\.\\DISPLAY1","monitorDeviceName.base64":"XFwuXERJU1BMQVkx"},"action":"set.monitorDeviceName"},{"uuid":"e49fa0d0-e851-4252-b6c2-eadb04cde607","body":{"enabled":true},"action":"set.toggleScreenCapture"}]
+[Debug | 3:00:50 AM | 24] Considering recording with 0 hint targets and 0 avoid targets
+[Debug | 3:00:50 AM | 24] ~ Screen[65537, "\\.\DISPLAY1", [0,0 + 1920x1080]]
+[Debug | 3:00:50 AM | 24] ~     Score: 68000 (PreferredType, Focused)
+[Debug | 3:00:50 AM | 24] Selected target Screen[65537, "\\.\DISPLAY1", [0,0 + 1920x1080]] (score 68000)
+[Info | 3:00:50 AM | 24] Going to attempt recording Screen[65537, "\\.\DISPLAY1", [0,0 + 1920x1080]]
+[Info | 3:00:50 AM | 24] [ESM Event] - AttemptRecording
+[Debug | 3:00:50 AM | 24] [EventProcessor] [<-] ConfigChanged ElapsedTime: 17ms
+[Debug | 3:00:50 AM | 24] [EventProcessor] [->] AttemptRecording
+[Info | 3:00:50 AM | 24] ----[ESM State]: AttemptRecording----
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.772487] [004A4C] WinRT borderless support check: requested, allowed (4)
+[Info | 3:00:50 AM | 24] [ESM Event] - StartRecording
+[Debug | 3:00:50 AM | 24] [EventProcessor] [<-] AttemptRecording ElapsedTime: 238ms
+[Debug | 3:00:50 AM | 24] [EventProcessor] [->] StartRecording
+[Info | 3:00:50 AM | 24] ----[ESM State]: Recording----
+[Debug | 3:00:50 AM | 24] Creating recording session for Screen[65537, "\\.\DISPLAY1", [0,0 + 1920x1080]] using capture mode Screen/WINRT Attempts: 1
+[Debug | 3:00:50 AM | 24] CreateConfig: using main LUID 85423, encode LUID 85423, codec SCOPE_VID_CODEC_H264 usage SCOPE_VENC_USAGE_REALTIME
+[Debug | 3:00:50 AM | 24] COR: input resolution <= output resolution (1920x1080 vs 1920x1080), not upscaling
+[Info | 3:00:50 AM | 24] Input resolution: 1920x1080
+[Info | 3:00:50 AM | 24] Output resolution: 1920x1080
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.849051] [003F94] started raw input capture backend
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.849571] [003F94] all pipeline components started
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.849587] [003F94] started input capture
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.849589] [003F94] pipeline start issued
+[Info | 3:00:50 AM | 27] InputManager: regenerating trigger inputs for Screen Recording
+[Info | 3:00:50 AM | 27] Updated hotkeys for Screen Recording, now have 9 hotkeys configured
+[Info | 3:00:50 AM | 24] Clearing current I/O settings
+[Info | 3:00:50 AM | 24] Updating audio configurations
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.872988] [004A4C] WASAPI loopback device enum: found 2 devices, default: Headphones (2- Mivi DuoPods K2) ({0.0.0.00000000}.{6d330894-080e-4ad6-9b27-44a6159a97a0})
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.879233] [004A4C] WASAPI capture device enum: found 2 devices, default: Microphone (Realtek(R) Audio) ({0.0.1.00000000}.{e2598557-1851-4b9a-9977-112d49282129})
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.894419] [004A4C] WASAPI loopback device enum: found 2 devices, default: Headphones (2- Mivi DuoPods K2) ({0.0.0.00000000}.{6d330894-080e-4ad6-9b27-44a6159a97a0})
+[Info | 3:00:50 AM | 24] RecordingSession using screen capture: screen 65537 (\\.\DISPLAY1) using mode SCOPE_VCAP_SCREEN_MODE_WINRT
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.932038] [0012E8] pipeline starting to process user actions
+[Debug | 3:00:50 AM | 15] [Scope] [03:00:50.961546] [004A4C] DXDeviceManager created DXDevice for adapter Intel(R) Iris(R) Xe Graphics (LUID 85423) with usage 1
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.230730] [004A4C] Intel QS encoder initialised with VPL backend (lib MFX 2.11, driver MFX 2.15)
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.254517] [004A4C] WASAPI loopback device enum: found 2 devices, default: Headphones (2- Mivi DuoPods K2) ({0.0.0.00000000}.{6d330894-080e-4ad6-9b27-44a6159a97a0})
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.259162] [004A4C] WASAPI capture device enum: found 2 devices, default: Microphone (Realtek(R) Audio) ({0.0.1.00000000}.{e2598557-1851-4b9a-9977-112d49282129})
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.265713] [004A4C] WASAPI loopback device enum: found 2 devices, default: Headphones (2- Mivi DuoPods K2) ({0.0.0.00000000}.{6d330894-080e-4ad6-9b27-44a6159a97a0})
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.266256] [004A4C] creating WASAPI capture for device Headphones (2- Mivi DuoPods K2); loopback aiming to use WASAPI events
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.271071] [004A4C] WASAPI device capture for Headphones (2- Mivi DuoPods K2) trying format Wave (PCM, float, 32-bit, interleaved), 48000Hz, 2ch
+[Debug | 3:00:51 AM | 12] Executing Request: set.toggleBroadcast
+[Info | 3:00:51 AM | 12] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 3:00:51 AM | 15] [Scope] [03:00:51.289973] [004A4C] created WASAPI capture for device Headphones (2- Mivi DuoPods K2); loopback client using WASAPI events
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.293123] [004A4C] WASAPI device capture for Headphones (2- Mivi DuoPods K2) using retrieved capture period of 10.000ms
+[Info | 3:00:51 AM | 15] [Scope] [03:00:51.293157] [004A4C]     format: Wave (PCM, float, 32-bit, interleaved), 2 channels, 48000Hz
+[Info | 3:00:51 AM | 12] job.respond f4379053-c482-4bc7-afba-e3916339e483
+[Debug | 3:00:51 AM | 12] PollDesktopJobQueue reply [{"uuid":"f4379053-c482-4bc7-afba-e3916339e483","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 3:00:51 AM | 26] job.respond "ok"
+[Info | 3:00:51 AM | 24] Starting Medal Performance monitor.
+[Debug | 3:00:51 AM | 24] [ClipOutput] Post match event detection set to 'False', real time event detection set to 'False'
+[Info | 3:00:51 AM | 24] Output modes: ClipOutput
+[Debug | 3:00:51 AM | 24] [EventProcessor] [<-] StartRecording ElapsedTime: 592ms
+[Debug | 3:00:51 AM | 8] [HAGS] Status for Intel(R) Iris(R) Xe Graphics (85423): disabled (default disabled), driver support AlwaysOff, from D3DKMT/WDDM2.9
+[Debug | 3:00:51 AM | 8] Unable to set increase base priority privilege (likely not available for this user)
+[Info | 3:00:51 AM | 8] SetGPUPriority Result: Success, Priority: 5
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.416690] [0017EC] starting pipeline
+[Info | 3:00:51 AM | 15] [Scope] [03:00:51.469185] [0017EC] starting FFMPEG audio encoder
+[Info | 3:00:51 AM | 15] [Scope] [03:00:51.469307] [0017EC] starting FFMPEG audio encoder
+[Info | 3:00:51 AM | 15] [Scope] [03:00:51.469400] [0017EC] starting FFMPEG audio stream processor
+[Info | 3:00:51 AM | 15] [Scope] [03:00:51.469925] [0017EC] starting WASAPI capture for device Headphones (2- Mivi DuoPods K2)
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.470266] [0017EC] starting D2D video frame processor
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.470429] [001B10] entering FFMPEG audio encoder loop
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.470432] [001B10] regenerating FFMPEG audio encoder
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.470471] [0033BC] entering FFMPEG audio encoder loop
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.470473] [0033BC] regenerating FFMPEG audio encoder
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.470553] [0017EC] starting Intel video encoder
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.471735] [001C7C] audio stream processor: generating filter graph for 1 input streams -> 2 output streams
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.472659] [0013BC] WASAPI capture for Headphones (2- Mivi DuoPods K2) using WASAPI events
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.474453] [0004A0] entering D2D video processor main loop
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.474469] [0004A0] regenerating D2D video frame processor (iteration 1)
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.475549] [001434] entering Intel video encoder main encode loop
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.475718] [0013BC] entering WASAPI capture loop for loopback device Headphones (2- Mivi DuoPods K2)
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.481172] [0013BC] WASAPI device capture: using source timestamps for Headphones (2- Mivi DuoPods K2) (time diff: -0.009674s)
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.500998] [001C7C] audio stream processor: generated and configured filter graph
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.501020] [001C7C] audio stream processor: output stream 0 initial time base is 1/48000
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.501022] [001C7C] audio stream processor: output stream 1 initial time base is 1/48000
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.532385] [0017EC] WinRT borderless support check: requested, allowed (4)
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.535413] [0015CC] creating WinRT screen capture for HMONITOR 0000000000010001
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.635291] [001758] WinRT borderless support check: requested, allowed (4)
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.648005] [0015CC] disabled WinRT capture border
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.653832] [0015CC] starting WinRT screen capture
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.653857] [0015CC] all pipeline components started
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.653907] [0017EC] pipeline start issued
+[Info | 3:00:51 AM | 8] Recording session starting
+[Info | 3:00:51 AM | 8] JWT validation is successful
+[Info | 3:00:51 AM | 8] Configuring voice clipping
+[Debug | 3:00:51 AM | 15] [Scope] [03:00:51.667074] [0015CC] regenerating WinRT output texture pool, now 1920x1080 format 87
+[Debug | 3:00:51 AM | 4] [OpenVR] Initialize failed: OpenVR.Init failed: Init_PathRegistryNotFound
+[Info | 3:00:51 AM | 20] Using electron overlay.
+[Info | 3:00:51 AM | 20] Starting Electron overlay for Screen Recording
+[Info | 3:00:51 AM | 22] Recording session started successfully
+[Info | 3:00:51 AM | 20] Sending electron overlay toggle injected mode: False
+[Info | 3:00:51 AM | 12] SendOverlayToggleInjectedMode reply "ok" after 10.1ms
+[Info | 3:00:51 AM | 12] Average response time: 10.1ms (1 measures)
+[Info | 3:00:51 AM | 20] Sending electron overlay location: size 1920x1080 position 0,0
+[Info | 3:00:51 AM | 26] 1 logs of- Sending electron overlay location: size 1920x1080 position 0,0
+[Info | 3:00:51 AM | 26] SendOverlaySize reply "ok" after 9.2ms
+[Info | 3:00:51 AM | 26] Average response time: 9.7ms (2 measures)
+[Info | 3:00:51 AM | 22] Sending electron overlay show: ClipModeStart
+[Info | 3:00:51 AM | 22] [DesktopConnection] SendOverlayShow request: OverlayPayload: { type: ClipModeStart, length: 0, categoryId: 1b7CpvXVSuB }
+[Info | 3:00:51 AM | 12] SendOverlayShow reply "ok" after 9.1ms
+[Info | 3:00:51 AM | 12] Average response time: 9.5ms (3 measures)
+[Info | 3:00:51 AM | 22] [Game Status]: capture/started - Screen Recording[1b7CpvXVSuB]
+[Info | 3:00:51 AM | 22] [GameState] CategoryId updated to 1b7CpvXVSuB, resending game state to backend.
+[Debug | 3:00:51 AM | 26] capture/started reply {}
+[Info | 3:00:51 AM | 22] [GameState] Timer started
+[Debug | 3:00:53 AM | 15] [Scope] [03:00:53.676225] [0015CC] pipeline event fired: vcap.regen by vcap.WinRTScreenCapture[vcap]
+[Info | 3:00:57 AM | 8] Recording session target focus duration: n/a
+[Warning | 3:01:05 AM | 8] Socket error during desktop request (timed out)
+[Debug | 3:01:05 AM | 8] game/started reply 
+[Info | 3:01:05 AM | 14] SendOverlaySize reply "ok" after 13629.1ms
+[Info | 3:01:05 AM | 14] Average response time: 3414.4ms (4 measures)
+[Debug | 3:01:08 AM | 12] Executing Request: set.overlayCurrentInjectedMode
+[Warning | 3:01:08 AM | 12] No command for set.overlayCurrentInjectedMode
+[Info | 3:01:08 AM | 12] job.respond a02c883a-4955-46b2-90d0-2daa84f11c18
+[Debug | 3:01:08 AM | 12] PollDesktopJobQueue reply [{"uuid":"a02c883a-4955-46b2-90d0-2daa84f11c18","body":{"enabled":0},"action":"set.overlayCurrentInjectedMode"}]
+[Debug | 3:01:08 AM | 12] job.respond "ok"
+[Info | 3:02:53 AM | 4] Queue processing running. Events processed: 11
+[Debug | 3:03:07 AM | 26] Executing Request: set.toggleScreenCapture
+[Debug | 3:03:07 AM | 26] Settings [scope:global]: Screen Capture Enabled changed from True --> False
+[Info | 3:03:07 AM | 26] job.respond 37e4e1da-4ab4-418e-b87d-e853a507ba3f
+[Info | 3:03:07 AM | 8] [Game Status]: game/stopped - Screen Recording[1b7CpvXVSuB]
+[Info | 3:03:07 AM | 26] [ESM Event] - ConfigChanged
+[Debug | 3:03:07 AM | 26] Config change: IsScreenRecordingActive (Global)
+[Debug | 3:03:07 AM | 24] [EventProcessor] [->] ConfigChanged
+[Debug | 3:03:07 AM | 26] PollDesktopJobQueue reply [{"uuid":"37e4e1da-4ab4-418e-b87d-e853a507ba3f","body":{"enabled":false},"action":"set.toggleScreenCapture"}]
+[Debug | 3:03:07 AM | 24] Handling config change while recording: IsScreenRecordingActive (Global)
+[Info | 3:03:07 AM | 24] [ESM Event] - ConsiderSwitchRecording
+[Debug | 3:03:07 AM | 24] [EventProcessor] [<-] ConfigChanged ElapsedTime: 20ms
+[Debug | 3:03:07 AM | 24] [EventProcessor] [->] ConsiderSwitchRecording
+[Info | 3:03:07 AM | 24] [SelectTarget] Considering switching target while recording is active
+[Debug | 3:03:07 AM | 24] No viable targets available
+[Info | 3:03:07 AM | 24] [SelectTarget] Stopping recording from Screen Recording due to no available target
+[Info | 3:03:07 AM | 24] [ESM Event] - StopRecording
+[Debug | 3:03:07 AM | 24] [EventProcessor] [<-] ConsiderSwitchRecording ElapsedTime: 13ms
+[Debug | 3:03:07 AM | 24] [EventProcessor] [->] StopRecording
+[Info | 3:03:07 AM | 24] Exiting Recording
+[Info | 3:03:07 AM | 24] Dispose Recording Session
+[Debug | 3:03:07 AM | 15] [Scope] [03:03:07.976001] [004A4C] stopping pipeline
+[Debug | 3:03:07 AM | 15] [Scope] [03:03:07.976288] [0015CC] stopping WinRT screen capture
+[Debug | 3:03:07 AM | 15] [Scope] [03:03:07.994638] [0015CC] stopped WinRT screen capture
+[Debug | 3:03:07 AM | 15] [Scope] [03:03:07.999091] [004A4C] stopping Intel video encoder (put thread)
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:07.999111] [004A4C] submitting EOS for Intel video encoder
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:07.999334] [004A4C] submitted EOS for Intel video encoder
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.000134] [004A4C] stopping Intel video encoder (encode thread)
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.000148] [001434] exiting Intel video encoder main encode loop
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.001416] [004A4C] stopping D2D video frame processor
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.001860] [0004A0] exiting D2D video processor main loop
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.002957] [004A4C] stopped D2D video frame processor
+[Info | 3:03:08 AM | 15] [Scope] [03:03:08.002981] [004A4C] stopping WASAPI capture for device Headphones (2- Mivi DuoPods K2)
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.003002] [0013BC] exiting WASAPI capture loop for device Headphones (2- Mivi DuoPods K2)
+[Info | 3:03:08 AM | 15] [Scope] [03:03:08.003976] [004A4C] stopped WASAPI capture for device Headphones (2- Mivi DuoPods K2)
+[Info | 3:03:08 AM | 15] [Scope] [03:03:08.003990] [004A4C] stopping FFMPEG audio stream processor
+[Info | 3:03:08 AM | 15] [Scope] [03:03:08.004443] [004A4C] stopped FFMPEG audio stream processor
+[Info | 3:03:08 AM | 15] [Scope] [03:03:08.004450] [004A4C] stopping FFMPEG audio encoder
+[Debug | 3:03:08 AM | 26] job.respond "ok"
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.105645] [0033BC] exiting FFMPEG audio encoder loop
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.107633] [0033BC] leaving FFMPEG audio encoder run thread
+[Info | 3:03:08 AM | 15] [Scope] [03:03:08.109876] [004A4C] stopped FFMPEG audio encoder
+[Info | 3:03:08 AM | 15] [Scope] [03:03:08.109893] [004A4C] stopping FFMPEG audio encoder
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.205430] [001B10] exiting FFMPEG audio encoder loop
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.206894] [001B10] leaving FFMPEG audio encoder run thread
+[Info | 3:03:08 AM | 15] [Scope] [03:03:08.207412] [004A4C] stopped FFMPEG audio encoder
+[Info | 3:03:08 AM | 24] Stopped Pipeline
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.207452] [004A4C] all pipeline components stopped
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.207464] [004A4C] pipeline stop issued
+[Info | 3:03:08 AM | 24] Recording session stopped
+[Info | 3:03:08 AM | 13] Sending electron overlay toggle injected mode: False
+[Info | 3:03:08 AM | 24] [Game Status]: capture/stopped - Screen Recording[1b7CpvXVSuB]
+[Info | 3:03:08 AM | 24] [GameState] CategoryId updated to , resending game state to backend.
+[Info | 3:03:08 AM | 24] [GameState] Contexts updated to , resending game state to backend.
+[Info | 3:03:08 AM | 24] [GameState] Timer stopped
+[Info | 3:03:08 AM | 12] SendOverlayToggleInjectedMode reply "ok" after 4.0ms
+[Debug | 3:03:08 AM | 18] capture/stopped reply "ok"
+[Info | 3:03:08 AM | 12] Average response time: 2732.3ms (5 measures)
+[Info | 3:03:08 AM | 24] Stopping performance monitor.
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.218925] [004A4C] stopping pipeline
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.219038] [004A4C] pipeline stop issued
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.219044] [004A4C] pipeline joining user action thread
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.219077] [0012E8] pipeline stopping processing user actions
+[Debug | 3:03:08 AM | 15] [Scope] [03:03:08.219812] [004A4C] pipeline joined user action thread
+[Warning | 3:03:08 AM | 23] Failed to check perf: Collection was modified; enumeration operation may not execute.
+[Info | 3:03:08 AM | 24] Disposed Pipeline
+[Info | 3:03:08 AM | 24] ----[ESM State]: SelectTarget----
+[Info | 3:03:08 AM | 24] [SelectTarget] Considering switching target after recording stopped
+[Debug | 3:03:08 AM | 24] Considering recording with 0 hint targets and 0 avoid targets
+[Debug | 3:03:08 AM | 24] No viable targets available
+[Debug | 3:03:08 AM | 24] [EventProcessor] [<-] StopRecording ElapsedTime: 322ms
+[Info | 3:03:08 AM | 27] InputManager: target switch detected, regenerating trigger inputs for (none)
+[Info | 3:03:08 AM | 27] Updated hotkeys for (none), now have 9 hotkeys configured
+[Debug | 3:03:08 AM | 18] Executing Request: set.toggleBroadcast
+[Info | 3:03:08 AM | 18] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 3:03:08 AM | 18] job.respond a9e84376-006b-4d62-9383-36e30ad835cb
+[Debug | 3:03:08 AM | 18] PollDesktopJobQueue reply [{"uuid":"a9e84376-006b-4d62-9383-36e30ad835cb","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 3:03:08 AM | 12] job.respond "ok"
+[Debug | 3:03:09 AM | 12] game/stopped reply "ok"
+[Info | 3:03:10 AM | 26] [GameState] Skipping duplicate state send in queue (state unchanged, 0.0s since last send)
